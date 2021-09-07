@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.javassist:javassist:3.20.0-GA">
+    <CLASSES>
+      <root url="jar:///media/root/系统/BaiduNetdiskDownload/04_阶段四 医疗实战-传智健康（V10版本）/4.阶段四-传智健康/day01/资源/repository_boot/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar:///media/root/系统/BaiduNetdiskDownload/04_阶段四 医疗实战-传智健康（V10版本）/4.阶段四-传智健康/day01/资源/repository_boot/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar:///media/root/系统/BaiduNetdiskDownload/04_阶段四 医疗实战-传智健康（V10版本）/4.阶段四-传智健康/day01/资源/repository_boot/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
