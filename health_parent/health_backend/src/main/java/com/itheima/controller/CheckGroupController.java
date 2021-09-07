@@ -56,8 +56,9 @@ public class CheckGroupController {
 
     }
     @RequestMapping("/edit")
-    public Result edit(CheckGroup checkGroup,Integer[] checkitemIds) {
+    public Result edit(@RequestBody CheckGroup checkGroup,Integer[] checkitemIds) {
         try{
+            System.out.println("checkGroup_ID"+": "+checkGroup.getId());
             checkGroupService.edit(checkGroup,checkitemIds);
             return new Result(true,MessageConstant.EDIT_CHECKGROUP_SUCCESS);
         }catch(Exception e) {

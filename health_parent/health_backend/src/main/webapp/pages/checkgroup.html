@@ -282,6 +282,7 @@
             methods: {
                 //编辑
                 handleEdit() {
+                    console.log(this.formData)
                     axios.post("/checkgroup/edit.do?checkitemIds="+this.checkitemIds,this.formData).then((res)=>{
                         this.dialogFormVisible4Edit=false
                         if(res.data.flag){
@@ -292,6 +293,8 @@
                         }else {
                             this.$message.error(res.data.message)
                         }
+                    }).finally(()=>{
+                        this.findPage()
                     })
                 },
                 //添加
